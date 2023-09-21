@@ -29,7 +29,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -39,21 +45,9 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 16,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 17,
-				"parent" : 0
-			},
-			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -64,14 +58,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
-					"path" : "D:/Projects/VoltEngine/."
+					"backtrace" : 4,
+					"path" : "C:/Projects/VoltEngine/."
 				}
 			],
 			"language" : "CXX",
@@ -114,22 +108,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\MinGW\\lib\\libfreeglut.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "-lopengl32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "-g",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "-lfreeglut",
+				"fragment" : "-llibaries/GLFW/glfw3Config.cmake",
 				"role" : "libraries"
 			},
 			{
